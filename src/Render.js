@@ -1,7 +1,7 @@
 import App from "./App";
 import AppSmallCam from "./AppSmallCam";
 import AppBigCam from "./AppBigCam";
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function Render() {
   return (
