@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ZoomWebCamResearch/static/css/main.7e178a28.chunk.css",
-    "main.js": "/ZoomWebCamResearch/static/js/main.476b64e2.chunk.js",
-    "main.js.map": "/ZoomWebCamResearch/static/js/main.476b64e2.chunk.js.map",
+    "main.js": "/ZoomWebCamResearch/static/js/main.c2106d24.chunk.js",
+    "main.js.map": "/ZoomWebCamResearch/static/js/main.c2106d24.chunk.js.map",
     "runtime-main.js": "/ZoomWebCamResearch/static/js/runtime-main.c1d42332.js",
     "runtime-main.js.map": "/ZoomWebCamResearch/static/js/runtime-main.c1d42332.js.map",
     "static/js/2.4f717a8e.chunk.js": "/ZoomWebCamResearch/static/js/2.4f717a8e.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.c1d42332.js",
     "static/js/2.4f717a8e.chunk.js",
     "static/css/main.7e178a28.chunk.css",
-    "static/js/main.476b64e2.chunk.js"
+    "static/js/main.c2106d24.chunk.js"
   ]
 }
