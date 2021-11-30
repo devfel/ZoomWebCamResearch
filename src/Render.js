@@ -5,7 +5,7 @@ import {HashRouter as Router, Route, Routes} from "react-router-dom";
 
 function Render() {
   return (
-    <Router>
+    <Router basename='/ZoomWebCamResearch'>
       <Routes>
         <Route exact path="/" element={<App/>}/>
         <Route exact path="/small" element={<AppSmallCam/>}/>
