@@ -7,9 +7,9 @@ function Render() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<App/>}/>
-        <Route path="/small" element={<AppSmallCam/>}/>
-        <Route path="/big" element={<AppBigCam/>}/>
+        <Route path="/ZoomWebCamResearch/" element={<App/>}/>
+        <Route path="/ZoomWebCamResearch/small" element={<AppSmallCam/>}/>
+        <Route path="/ZoomWebCamResearch/big" element={<AppBigCam/>}/>
       </Routes>
     </Router>
   );
