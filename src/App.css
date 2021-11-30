@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Zoom {
+  /*background-image: url("images/zoom_frame.png");*/
+  background-color: #F0F;
+  width: 1800;
+  height: 1800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px);
+  font-weight: 500;
+  color: white;
+}
+
+.ZoomBackground {
+  /* position the div in center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* RealWebCamera */
+.WebCamera {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+/* Julia M. Picture */
+.WebCamera2 {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+/* RealWebCamera - SMALL */
+.WebCameraSmall {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+/* Julia M. Picture */
+.WebCamera2Small {
+  position: absolute;
+  top: 15%;
+  left: 8%;
+}
+
+
+/* RealWebCamera - BIG */
+.WebCameraBig {
+  position: absolute;
+  top: 15%;
+  left: 23%;
+}
+/* Julia M. Picture */
+.WebCamera2Big {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+}
+
+
+.Chat {
+  position: absolute;
+  top: 5%;
+  left: 65%;
+  background-color: lightgrey;
+}
+
+.Instructions {
+  font-size: calc(14px);
+  font-weight: 400;
+}
+
+textarea {
+  width: 360px;
+  height: 480px;
+  resize: none;
+  white-space: pre-line;
+}
+
+.ChatText {
+  text-align: left;
+
+  color: black;
+  width: 360px;
+  height: 480px;
+  resize: none;
+  white-space: pre-line;
+  overflow-y: scroll;
+  padding: 0.5vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
